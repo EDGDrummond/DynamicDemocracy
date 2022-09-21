@@ -1,0 +1,273 @@
+\documentclass[twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\setlength{\parskip}{1em}
+\usepackage{setspace}
+\usepackage{amssymb, amsmath, nccmath, amsthm, amsfonts, dsfont}    
+\usepackage{enumerate}                  % to enumerate with roman numerals [i] or [I] after enumerate}, or [i)]
+\usepackage{fancyhdr}					% to get the fancy header with stuff
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	linkcolor={red!30!black},
+	citecolor={blue!30!black},
+	urlcolor={blue!80!black}
+}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem*{remark}{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\usepackage[colorinlistoftodos]{todonotes}
+
+
+\title{DyCy: Dynamic Democracy \\ \small Electoral reform is not enough, it’s time for something new}
+\author{Errol Drummond}
+\date{}
+
+\setlength{\parindent}{0pt}
+
+\pagestyle{fancy}
+\fancyhead[LE,RO]{}
+\fancyhead[RE,LO]{DyCy}
+
+\begin{document}
+
+	\maketitle
+
+\section{Introduction}
+
+This article aims to sketch out some of the understanding that we have about what makes a nation and her citizens prosperous. It will take this understanding a step further by proposing a mechanism through which we can act on this knowledge; the mechanism proposed only recently became a logistical possibility.
+
+The first idea to be laid out is a leading theory in political science, it concerns the inclusivity of political institutions or political decision making; the thesis is that more inclusive decision making (where a wider variety of groups have some method of imposing their will in important political decisions) breeds more long term prosperity for a society. 
+
+A second key idea will explore how our political institutions does not allow for a nuanced expression of desire from voters. Selecting a representative every four years is not a viable way to provide your priority list of desires. A system that does not include this detail cannot aggregate to a more fine tuned representative system.
+
+Other ideas will be explored that map out how survival of the fittest means that leaders are incentivised to become more dictatorial, because actions that concentrate power make survival easier. A final argument will be presented regarding how evolution selects for things that maximise their ‘fitness function’, and that idealistic hopes about what this fitness function is are counter productive. 
+
+We want to highlight that throughout this piece we talk about the incentives and behaviour of ruling groups, and sometimes refer to that whole set as the ruling group; we do not see this as a monolith, we are merely abstracting over the key groups that are involved in governance. When we say that the ruling group makes a decision, we mean that only the ruling groups were significantly involved in the decision making, and this decision could have arisen from a battle between different ruling groups. The emphasis is that groups outside the ruling group, such as normal citizens, were not involved in that process.
+
+\section{Political inclusivity}
+
+The perspective taken on national prosperity here can be used to understand a lot of actions that we see on national and international levels that at first seem irrational. Case after case of leaders acting in ways that are demonstrably not in favour of national progress that make many of us disheartened in politics because we don’t understand why anybody would act that way, and frustrated that we can do so little to change this behaviour. Let’s lay out the core idea presented.
+
+State centralisation gives governments the power to make changes across society - without this attribute governments cannot act to promote the effective of their governance to society as a whole. Of course this attribute has to be treated with care because it also means citizens can be exploited by governments. This is where the larger part of the argument comes into focus.
+
+Societies that trend toward political inclusivity will be more prosperous over time. Political inclusivity means the ability to be involved in politics. For example, if women cannot vote, then half of the population have no say in government - not very inclusive. Moreover, voting once every four years is inclusive, but the capability to be involved in other ways over that time period is of course more inclusive.
+
+For a working definition of political inclusivity, we want to take the following statement: ``The more effective representation there is of each voter in political decisions, and the more say voters have over what political decisions to focus on, the more politically inclusive the system is." Let's unpack this by giving some examples.
+
+We will take Britain as a 'base' example, where MPs are elected as representatives to Parliament every four years via a first past the post voting system. If we are to add in a yearly referendum it would be more inclusive because there are additional political decisions to be made that have full involvement from voters. Moreover, this would be even more inclusive if citizens had some way of determining what the referendum question should be, and not have it be prescribed by the government. If this referendum were to be binding it would be even more inclusive because the representation of voters would be more effective. Effective generally refers to whether the involvement of voters is functional.
+
+For example, if voters were allowed a direct say in every political decision, this would not be more inclusive because it would not be an effective system; quality and quantity are simultaneously important, providing an overabundance of one is counter productive because then the ratio between the two is extremely non-optimal.
+
+Once a referendum is conducted, the more effective influence voters have over the development of the referendum item (provided the referendum was a positive request for change), the more politically inclusive the system would be. Brexit was voted on by voters, but then there was no effective say from voters over how it should have been carried out. There was an election after the Brexit referendum, but electing governments is about selecting representatives for all governmental issues, not just Brexit, so the effective expression of desire from voters in those elections regarding Brexit was essentially zero.
+
+Similarly, having an election every year would not be more inclusive because it would not be an effective representation of voters; it takes more than a year from becoming a government to get used to the role and start effectively enacting policies. Yearly votes would destabilise the governance process too much and detract from effectiveness.
+
+Now that we have the core thesis presented, let us recount some of the example cases that this thesis can help us understand. We will then go on to discuss some game theoretic situations that help support this thesis and the proposed mechanism.
+
+\subsection{Exclusive institutions}
+
+Britain had two cases of a prime minister leaving office prior to the end of their term between 2018 and 2022. Such a drastic change in governance might precipitate the need for the new leader or a new government to be selected by voters. But there is no legal requirement for that, and so it essentially never happens.
+
+Even without a re-selection of all MPs, a new leader means a new cabinet, and even if the policy platform is not changed the priorities of the platform are changed; that is not to mention all the policies that will be pursued outside the realm of the original policy platform. Inclusivity would require voters be allowed some binding say over who the new leader or party should be, particularly when Boris Johnson was ousted due to his behaviour in office and the unmet expectations of voters.
+
+Ironically, the greater need for voter involvement in the selection of a new government (due to the incumbent government not living up to projected expectations) leads to an even larger incentive for the current ruling party to fight with more vigour to prevent that from happening. Their electoral prospects look too bad.
+
+Other areas where the lack of political inclusivity can be seen to be detrimental to the prosperity of society is in how the aforementioned government assigned huge contracts during the corona pandemic. The gargantuan funding given out in comparison to what was achieved is an incredibly inefficient use of taxpayer money. Countless more examples of this sort can be found if you are willing to deal with the discomfort of exploring all those failings.
+
+In general one of the most common ways governments extract value from societies is through projects, be they construction or other services. These contracts can be given by the government to a friendly or associated company at an extremely inflated price, and there is very little that can be done by many of the people who have enough time to care.
+
+\subsection{Game theoretic situations}
+
+Let us highlight 3 game theoretic situations that support many theories of governance, including the argument of political inclusivity; they will also support the need for the mechanism presented here.
+
+Case 1: a policy that will benefit the ruling group, but will be neutral or negative on the whole to the rest of society.
+
+Note, when we say 'benefit the ruling group' what we mean is that of the groups that have a significant say over political decision making, the gain would be enough for enough of the subgroups (and not too negative for any of them) for the resulting action of this set of groups to enact it. That could be a slight gain to everybody in the ruling group or a huge gain to a smaller subset of them.
+
+In this scenario, the ruling group is incentivised to implement this policy, because of course it benefits them (or at least enough of the ruling group for their collective action to be implementation). The fact that the rest of society does not benefit does not matter, because there is no viable mechanism through which to prevent it from happening.
+
+You may be able to think of examples of this happening where you are from. For example, it could be the sale of public institutions or goods, investment in unnecessary projects, the doling out of contracts to ruling group associated entities rather than via a meritocratic or cost effective mechanism.
+
+The greater the degree of political inclusivity of society, the better society is at preventing these kinds of policies from getting through.
+
+Case 2: a policy that does nothing for the ruling group or is not in their favour, but would be a net positive to society as a whole.
+
+The ruling groups have needs as well, they have to do and achieve certain things to stay in power, and as much as we may want it to be the case, the desires of society at large are not the primary concern of the ruling group. Idealism is the death of pragmatism.
+
+The biggest example of this that we should focus on because of its far reaching consequence is climate change. Policies that we need in order to prevent climate change are politically costly, and the political benefit of them are not seen until long after the policy period of a government. If you want power or to stay in power, there are much more effective paths - it is bad politics to choose climate policies.
+
+The greater the degree of political inclusivity of society, the more able society is to get through policies like this.
+
+Case 3: a policy that benefits a subset of society but has no discernible effect on anybody else, including the ruling group.
+
+The ruling group have metrics of success to stay in power; expending political capital to work on a policy such as this has essentially no benefit for them, it would not be worth their time exploring the matter or applying resources to it.
+
+Examples of this are electric scooter laws, prices of things at airports, or sports club regulations.
+
+The greater the degree of political inclusivity of society, the more able society is to get through policies like this.
+
+\subsection{Expanded reasoning}
+
+The above presented idea regarding prosperity, that political inclusivity is the primary driving factor, is argued for in part above; but the arguments in favour of it are expansive. We do not have time to expand on them here, neither would we do so as graciously as others already have. You are free to explore further yourself. A potential starting point may be “Why Nations Fail” by Daron Acemoglu and James Robinson. However the precise formulation of the definition was articulated by us, that is not the view of other authors on the matter as far as we are aware (the statement that ``The more effective representation there is of each voter in political decisions, and the more say voters have over what political decisions to focus on, the more politically inclusive the system is.")
+
+\section{Nuanced expression of desire}
+
+As things stand, democratic systems largely involve selecting representatives to take part in a policy creation and enactment process. What we argue here is that this representative selection process provides almost nothing to help you express your desires with any semblance of nuance. So the created and pursued policies cannot take account of the nuanced desire of voters.
+
+You can select parties that have broad policy and ideological bases, and this is indicative - but it says nothing about which policies you care the most about and which you disagree with. Indeed some people will select a representative for the sake of a single policy; this is an issue we will dig into later, but for now we want to focus more deeply on nuanced expression.
+
+When you vote for a party, what exactly are you voting for? Are you voting for the specific MP because you agree with them on all topics? Are you voting for them because you like their policy platform more than other parties? Are you voting for them because you like their leader? This will differ for each voter. But the fact that we cannot distinguish these scenarios at all is indicative of the open interpretation ruling groups can have about why people voted for them. When people voted for Brexit, what sort of Brexit deal were they hoping for?
+
+We do not know exactly what people were hoping for from Brexit. The only significant data point we have is that people were very slightly in favour of Brexit. But everybody in favour of Brexit could have been in favour of one of a few general directions we could have taken. So when it came to making the decision of which of these directions to take, there was only one interpretation that mattered - the interpretation of the ruling group (based on a power struggle between the ruling groups trying to implement it, of which citizens had essentially no influence).
+
+We argue that this situation requires two remedies. Firstly, there needs to be a way to gather more detailed information about what the voter base wants. And secondly, there needs to be a mechanism to enforce the inclusion of these preferences in the policy enactment - merely collecting that information and trusting the honour of leaders to make use of it in good-faith is too ripe for abuse.
+
+The core point here is that a system that adds in a method for voters to express their desire on policy priorities and details in an effective way is going to be able to aggregate and make use of this info with far more effectiveness than a system that only asks for preferences every four years. Furthermore, this preference taken every four years is not fine grained in detail, it is a mixed preference taking account of a policy platform, party and leader.
+
+\section{Evolution selects for fitness functions}
+
+Now we want to dive into a heuristic that has consequences for how natural selection applies to general processes like policy enactment. Evolution selects for fitness functions is the claim that natural selection amplifies things that maximise whatever variables make something survive better. This may seem like a truism, but the reason for brining it up is to remind ourselves that what we should be focussing on is figuring out whether our political systems are actually achieving what we want, and if not then we should focus on improving the system - improving the system implies tweaks that mean that the 'fitness function' is more aligned with what we want to see.
+
+The point is this: our political systems do not select for good governors, however much we might want them to. Our political systems select for leaders who are good at getting and staying in power; this has implications for why the trend to dictatorship is so prevalent - it is good politics. Over time we have learnt to improve our political systems to help ensure that what it means to gain and stay in power is more aligned with what is good for society and her citizens as a whole. And if we want to keep improving our political systems we have to recognise this fact and work with it. We need the fitness functions of our political systems to align more closely with what makes a society prosperous.
+
+The arguments presented above are about the game theoretic tug of war of power, but these mathematical games are largely about single individuals or groups battling for power. What if there was a way to play these games directly for policies instead? So we would vote directly for policies rather than representative leaders (wherein leaders who tend towards concentrating power have the advantage). Policies have implications for ruling groups and various other groups, but the game theoretic play for policies is vastly different and it would strip away a lot of the problems we have in our current systems. In particular it would be an antidote to the 3 game theoretic situations outlined above.
+
+To be clear, we are not about to propose that we overthrow our governance structures and replace them, nothing of the sort. The proposal here is to modify them by adding a parallel process through which citizens can more directly propose \& enact policies. And this system is limited, under its current form, to enacting at most 6 policies a year. There is no replacement of government here; of the thousands of policies governments implement every year, citizens will now be able to directly get through a few of their own.
+
+\section{The Proposal}
+
+Things will occur in 2-month blocks. In the first month, people vote on what question they want asked - there can be as many questions as there are voters. In the second month, people vote on the most asked question from the first month.
+
+For example, in the first month, the winning question could have been “Should we leave the EU” (imagine this is pre-2016 Britain). Then in the second month people vote on this actual question; in this scenario it would be a yes or no.
+
+If the proposed question receives a negative response, then nothing happens.
+
+If the proposed question receives a positive response, then a citizen’s assembly is convened. This assembly works with MPs and other experts to draft a more specific plan about how we could leave the EU (or perhaps an outline we could have the government pursue). Then this plan could be put back to voters to find acceptance, modification, or rejection. This process of modification and returning to voters can be repeated as many times as need be, though in practice proposals should not need to do this more than once very often.
+
+The citizen’s assembly is there to ensure that when the idea voted on by citizens is pursued, the perspective taken on it is not the one imposed by the leader at that moment in time, claiming that whatever they do is the ‘will of the people’. This is in direct alignment with the arguments we saw earlier; we need political inclusion here to ensure that the actual direction and proposal elucidated was created by people representing all facets of society, not just ruling politicians.
+
+The citizen’s assembly would be selected from voters in the referendum who indicated that they would be willing and capable to take part in it; these members would be selected randomly, but via process that trends towards a group that represents the whole populace, not just a random selection of voters in that vote. The reason for this is that certain groups of the populace vote more than others, and this would result in policy directions that do not take full account of all groups (violating our political inclusivity again).
+
+We call this mechanism Dynamic democraCy (DyCy) due its dynamic nature. For example, we are free to respond as a society to call for a new election when we realise that our government is incapable of dealing with the struggles facing the nation at a particular time, and also by the fact that the process of policy creation contains a back and forth between voters and a citizen’s assembly, rather than being a one way directed policy proposal.
+
+\subsection{Examples}
+
+There are countless examples we wish to propose, because there are so many scenarios in which this mechanism could help societies. But we shall start with two. Note that I am British and largely influenced by political events there, so my examples and previous arguments often reference British relations, please feel free to map these examples or arguments over to your own societies.
+
+Drugs.
+
+Drugs have largely been illegal for a long period of time. The ‘war on drugs’ is viewed by the vast majority as an abject failure. The history of why drug policies are what they are is also an unhappy sight for many. But making better drug policies is a losers game for politicians. It does them few favours, and in most scenarios harms their political prospects because the largest voting group (older voters) are the most against changing drug policies.
+
+Indeed Britain's Tony Blair requested a review and recommendation of a new drugs policy from a leading scientific researcher in the field. When that proposal was returned, it was actively ignored.
+
+DyCy could be used to request an updated drugs policy, and then if it were to pass, the drugs policy proposed would be created by a representative group of voters in collaboration with experts; then that proposal would be returned to voters to receive acceptance, modification, or rejection - it would have been the choice of voters to implement it, not just left up to the government.
+
+Britain's Russia report
+
+Russian meddling in foreign democracies and elections has become a wide spread concern. There were fears of Russian involvement in Britain's Brexit referendum and Scotland's 2014 independence referendum. As a result of these and other fears, the British security forces conducted a security review. This review was, after many delays, published in July 2020. The report concluded that there was substantial evidence of Russian interference, and that this interference had become the new normal. Yet with all this, there has been no progress on how to combat this meddling or how to defend the British democracy.
+
+Through DyCy, citizens could request the creation of a plan of action to pursue these aims. If it were to pass, then the citizen's assembly could work with experts to draw up a plan. This plan could involve investment in various areas that would help defend our democracy, such as educational initiatives. Alternatively the assembly could propose some publicly trusted figures to work with the security services to draw a secret plan (the purpose of the publicly trusted figure is as an overseer to help ensure the security services do not over step their remit).
+
+Other examples include preventing the Iraq war (at least Britain's involvement), Britain's Leveson 2 inquiry implementation, transitioning to a system where elections are only held when the public request them (rather than every 4 years), or the sale of public institutions. In further work we want to explore more areas such as these.
+
+\subsection{Difficulties}
+
+Here we want to deal with issues people may have with this idea at first exposure. Above we expanded on arguments that underlie the reasoning for why this mechanism would improve our societies. But there is possibly still a discomfort on the minds of some readers, and it is a very human discomfort: “I don’t trust other people.”
+
+Firstly we want to highlight something abut this statement; when we analyse it, we realise it must be based on some conception of what a ‘good’ choice is and what a ‘bad’ choice is, otherwise there is no way to decide that others can not be trusted to make choices. If you have a metric for good and bad choices, then of course you must be capable of making good choices. So the above statement is, generally speaking, equivalent to “I’m better at choosing than other people.”
+
+Firstly we want to highlight that problems with the outcomes of ‘choices through processes’ (such as voting for governments) does not imply bad choices, as the problematic outcomes can come from the process design itself (if the process was different you would see fewer non-ideal outcomes); that is what we argue here regarding governance.
+
+Now we want to ease you into the idea that you actually can trust other people, and you have learnt to do it in countless other scenarios. For example, when driving you recognise that you can trust others not to run red lights, not to swerve onto your side of the road, and generally not to violate road laws in too harmful a manner the vast majority of the time. If you did not trust others to do this, it would never be safe enough to willingly use roads.
+
+Taking it a bit further to ease you into the idea in a more general way, we want to highlight that this idea is a human bias that we make all over the place.
+
+80\% of drivers think they are better than 50\% of drivers. Now, perhaps you’re like me. “I know that, but *me*? I’m definitely in the top 50\%, I mean have you *seen* me drive?!” I hate to break it to you, but there is a decent chance you are not. But that is okay.
+
+Now even if you weren’t in the top 50\% of drivers, wouldn’t you still deserve the right to drive? And isn’t society better off that we don’t restrict the vast majority of people from being able to drive?
+
+This example hopefully softens the idea of trusting others; but let’s take it even further anyway and highlight that the idea that you could be better at deciding than somebody else is problematic in itself. What does it mean to be better at deciding? Well, what does it mean to be a better driver? The things that make somebody a good driver in England are different to what makes them a good driver in India. Context is relevant. You very well may be better at deciding on some topics, but on other topics you will recognise the importance of the input of others - and you will likely hope for their input.
+
+This driving example is an instantiation of something referred to as illusory superiority in psychology. It is a cognitive bias wherein we overestimate our own qualities and abilities in relation to the level of others. There has been a lot of research in this area, including its relevance in our susceptibility to bias - are you swayed less by biased media or by adverts?
+
+\subsection{Salman Khan}
+
+Many of you have hopefully heard of Salman Khan, the founder of the wonderful, free, online learning platform Khan Academy. He gave a speech at google about education; we want to recount an argument he had about education in this speech, because it is just as relevant here - after all, isn’t the ability to make political choices a learnable skill?
+
+If you were to go back 400 years in Western Europe, you would have seen that around 15\% of the population was literate. If you were to ask one of these people, what percent of the population is even capable of being literate, they might have said 40\%, or perhaps even 50\% with a great education system. 
+
+Of course today we realise that to be ludicrous. Khan’s point was that, if you are to ask people today, what percent of the population would be capable of understanding some quantum mechanics, you would likely see a very low number. But that’s the same thinking as those medieval people. With more effective analogies, and a more advanced education system, we would see that essentially anybody can understand facets of quantum mechanics.
+
+The point is this - when you think about whether you can trust others to participate in voting on societal matters, even if you don’t think they can yet, you must realise that voting well is a skill that they can get better at. Right now they have never needed to be engaged in politics, because being engaged in politics involves essentially no interaction; it’s just reading about current events going wrong, without having effective ways to make things better. If citizens are able to vote on issues they care about more often, they can learn to make very good choices. And if we don’t include them in decisions directly, we can never alleviate the problems with our governmental systems that are so apparent today.
+
+\subsection{Danger}
+
+We would like to highlight what we believe to be the biggest danger of this system. This is an aspect that we have not had enough time to explore yet, and it’s something we would have to think about how to prevent. We believe that we can certainly ensure that this doesn’t become a problem, but we believe that largely comes from our awareness of its existence.
+
+We have not explored the role of the media and how it has evolved over time. Media is the tool through which people see what is going on in the world around them, and the way in which this is done; the incentives that drive these organisations are fundamental. The capture of these institutions would imply a huge danger to the mechanism proposed here as it could provide a self sustaining cycle of media encouraging voting behaviour that aggregates power to a ruling class (or classes).
+
+So long as DyCy itself isn’t removed, citizens could find alternative news sources, modify their interpretation of the news, or change their thinking overall if they begin to suspect that their political choices are not providing them the prosperity they were led to expect, or if their desired changes come to fruition in problematic ways.
+
+\subsection{Separating single issues from parties}
+
+Shortly before we conclude, we want to highlight one more benefit of this mechanism. This is the separation of single issues from governmental parties.
+
+Voting in members of parliament, or governments themselves, is supposed to be about selecting able representatives who are capable of making good choices in myriad areas - in all areas of government ideally. But some parties try to gain power via focussing on single issues such as immigration or Brexit. These issues are fundamentally important; but we shouldn’t select entire governments based off of these ideas.
+
+DyCy provides a mechanism through which to get through changes on these single issues, and also makes the game theory of parties that focus on single issues an irrelevance. Why would you vote for a single issue party if that single issue can be implemented without them?
+
+Single issues shouldn’t paralyse the entire process of government; governments are supposed to look after all facets of societal co-existence, not narrow its focus to one topic.
+
+\subsection{Self destruct mechanism}
+
+Any significant alteration to governance should elicit scepticism, and we trust you have felt this way too - though we would hope it to be optimistic scepticism in this arena. Fortunately, this proposed mechanism has a non-extinguishable off switch built into it, so if we decide that it isn’t working as expected we can simply turn it off.
+
+The question of turning the system off could be the winning question in one cycle, and then it could pass when posed the next month.
+
+Alternatively, we could incorporate this in another way; for example perhaps each year voters could independently flick their own switch to have this voted on, and if, say, at least 50\% of voters trigger their switch, then this question is posed directly in the next cycle.
+
+\section{Why now?}
+
+We mentioned that this mechanism only recently became a possibility. This is because the logistics of conducting a national vote every month in the same way we do today are of course infeasible. However we now have over a decade of evidence that blockchains ensure security if created correctly. We are capable of building blockchain based voting systems (indeed they already exist), and partnering this with voting hardware and a robust mechanism through which to give people the right to vote produces a secure, national voting system.
+
+With this system in place, the act of conducting a vote would be a simple on chain mechanism that runs itself as we programme it to. We wouldn’t need tens of thousands of volunteers at every vote to ensure fair vote counting, once we go through the capital costs of getting this infrastructure in place using it is essentially free afterwards (not including individual security measures and vigilance about maintaining the system). 
+
+That being said, we aren’t completely there yet. The blockchain based voting systems are secure, but they involve proving that you are in a list of eligible voters. The creation and maintenance of this list is where one of the primary security dangers lies, and this still needs more work to prove the viability and safety guarantees we need. There is a solution for the voter list issue that we refer to as the Great Pilgrimage. We will expand on the real world design, including voter list maintenance and hardware, in the future; we have already covered a lot of ground in here.
+
+\section{Conclusion}
+
+DyCy is a mechanism to augment governmental structures, and allows for direct policy proposals from voters; these policies are created with inclusive input from all sectors of society and allow us to bypass issues in current governmental structures.
+
+This system will be built as a form of source code for society, and it will have an in-built button to self destruct in case it becomes malicious; it also has the ability to update itself as we progress and learn how to use it better, paving the way for nuanced developments in our governmental selection processes.
+
+Humans have long since surpassed the evolutionary stage where the tools they had were the ones they serendipitously discovered - we have learnt to become designers and create tools to more effectively solve our problems. It is time we conducted ourselves in that manner when it comes to power distribution too.
+
+\subsection{How does this become real?}
+
+One of the fun things about this idea is that we can get a mock system going and start voting on things amongst any sized group. We can start small, and if it goes well it will grow. If you want to switch from first past the post to proportional representation, the only thing you can do is ask the government to enact this - you can’t really get any energy going. But with this system, we can do it amongst ourselves as a way to satiate our political passions. If it grows enough, it can become a real force and from there it will be easier to make it a reality.
+
+There are times when people want change, but this change implies essentially no gain to the ruling class, and moreover implies negative change for a significant number of the ruling class. This scenario results in a complete lack of movement in the direction of change from the ruling class, and thus essentially no chance of it happening. Ruling classes never share any of their power willingly.
+
+Devolution of power to the people doesn’t happen willingly - we have to get energy and movement going. We have to get people interested and involved and show that we can make good choices. Once we have this going on a non-negligible scale, then at some point there will be a crunch point, a shock that once again there is an obvious change that would benefit society - but there will be no real movement in the direction of that change because it won’t benefit the people in power. At this crunch point, this movement can gain critical mass as people desiring change realise it as a viable option for instigating necessary change to improve society.
+
+We are at the start of this journey. We have the idea. Now we need to start getting a community together to build simple models of the tools and make use of them. This involves creating the software, and then using it to start voting - let’s have some fun with it.
+
+If you want to chat about this idea, contribute, or help get the community going, join the telegram group at \url{https://t.me/dycydycydycy}.
+	
+	
+	
+\end{document}
+
+
+
+
+
