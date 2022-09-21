@@ -1,2 +1,4 @@
-
-DyCy.aux/DyCy.fls/DyCy.log
+# /.gitignore
+DyCy.aux
+DyCy.fls
+DyCy.log
